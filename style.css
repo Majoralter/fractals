@@ -1,0 +1,40 @@
+*,*::before,*::after{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,html{
+  overflow-x: hidden;
+}
+
+canvas{
+  background-color: black;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#controls{
+  position: absolute;
+  padding: 10px;
+  border: 2px solid white;
+  right: 20px;
+  top: 20px;
+  width: 250px;
+  background-color: #222;
+}
+
+button{
+  padding: 10px 20px;
+  font-size: 16px;
+  width: 100%;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+label,input{
+  color: white;
+  font-size: 20px;
+}
